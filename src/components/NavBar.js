@@ -3,7 +3,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from '../img/logo.svg'
 import fblogo from '../img/fblogo.svg'
 import githublogo from '../img/githublogo.svg'
-import indeedlogo from '../img/indeedlogo.svg'
+import linkedinlogo from '../img/linkedinlogo.svg'
 
 const NavBar = (props) => {
   const [activeLink, setActiveLink] = useState("");
@@ -46,9 +46,9 @@ const NavBar = (props) => {
             </Nav>
             <span className="navbar-text">
               <div className='social-icon'>
-                <a href='#'><img src={indeedlogo} alt="indeed photo" /></a>
-                <a href='#'><img src={fblogo} alt="fb photo" /></a>
-                <a href='#'><img src={githublogo} alt="github photo" /></a>
+                <a href='https://www.linkedin.com/in/joel-perez1995/'><img src={linkedinlogo} alt="linkedin logo" /></a>
+                <a href='https://www.facebook.com/joel.x.perez'><img src={fblogo} alt="facebook logo" /></a>
+                <a href='https://github.com/Joel-Perez05'><img src={githublogo} alt="github logo" /></a>
               </div>
               <button className='vvd' onClick={() => console.log("connect")}><span>Let's Connect</span></button>
             </span>
