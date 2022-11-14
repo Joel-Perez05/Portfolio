@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
-import Banner from './components/Banner';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import AboutMe from './components/AboutMe';
+import MySkills from './components/MySkills';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Banner />
+      <AboutMe />
+      <MySkills />
     </div>
   );
 }
