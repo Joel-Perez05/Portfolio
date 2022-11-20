@@ -46,7 +46,7 @@ const AboutMe = (props) => {
         <Row className='align-items-center'>
           <Col xs={12} md={6} xl={7}>
             <span className='tagline'>Welcome to my Portfolio</span>
-            <h1>{"Hi I'm Joel Perez "}<span className='wrap'>{text}</span></h1>
+            <h1>{"Hi I'm Joel Perez "}<br></br><span className='wrap'>{text}</span></h1>
             {/* about myself below */}
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

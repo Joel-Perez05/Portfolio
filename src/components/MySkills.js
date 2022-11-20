@@ -6,9 +6,8 @@ import Python from "../img/Pythonstack.png";
 import MERN from "../img/MERNlogo.jpg";
 import DataStructure from "../img/DataStructures.png";
 import Github from "../img/githublogo.svg";
-import Space from "../img/space.jpg";
 
-const MySkills = () => {
+const MySkills = (props) => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -39,19 +38,19 @@ const MySkills = () => {
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
               <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                 <div className='item'>
-                  <img src={Python} alt='Image' />
+                  <img src={Python} alt='python logo' />
                   <h5>Full Stack Python</h5>
                 </div>
                 <div className='item'>
-                  <img src={MERN} alt='Image' />
+                  <img src={MERN} alt='mern logo' />
                   <h5>Full Stack MERN</h5>
                 </div>
                 <div className='item'>
-                  <img src={DataStructure} alt='Image' />
+                  <img src={DataStructure} alt='DSA logo' />
                   <h5>Data Structures and Algorithms</h5>
                 </div>
                 <div className='item'>
-                  <img src={Github} alt='Image' />
+                  <img src={Github} alt='github logo' />
                   <h5>Github</h5>
                 </div>
               </Carousel>
@@ -59,7 +58,6 @@ const MySkills = () => {
           </Col>
         </Row>
       </Container>
-      <img className='background-img' src={Space} alt="space img"/>
     </div>
   )
 }

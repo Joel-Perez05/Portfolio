@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Nav, Tab } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
-import PurpleSpace from "../img/purplespace.jpg";
 import Zelda from "../img/zelda.jpg";
 
 const MyProjects = (props) => {
@@ -39,7 +38,7 @@ const MyProjects = (props) => {
   ];
 
   return (
-    <div className='project' id='project'>
+    <div className='project' id='projects'>
       <Container>
         <Row>
           <Col>
@@ -76,7 +75,6 @@ const MyProjects = (props) => {
           </Col>
         </Row>
       </Container>
-      <img className='background-img-2' src={PurpleSpace} alt='2nd img' />
     </div>
   )
 }
