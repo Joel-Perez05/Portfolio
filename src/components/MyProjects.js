@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Nav, Tab } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
 import Zelda from "../img/zelda.jpg";
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 const MyProjects = (props) => {
   const personalProjects = [
@@ -42,8 +44,15 @@ const MyProjects = (props) => {
       <Container>
         <Row>
           <Col>
-            <h2>Projects</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+          <TrackVisibility>
+            {({ isVisible }) =>
+            <div className={isVisible? "animate__animated animate__slideInLeft" : "animate__animated animate__slideOutRight"}>
+              <h2>Projects</h2>
+              <p>
+                Below are some of the projects i've created so far. I will continue to update as I create more.
+              </p>
+            </div>}
+          </TrackVisibility>
             <Tab.Container id='projects-tabs' defaultActiveKey="first">
               <Nav variant="pills" defaultActiveKey="/home">
                 <Nav.Item>
@@ -68,8 +77,8 @@ const MyProjects = (props) => {
                     }
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
-                <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
+                <Tab.Pane className='second-tab' eventKey="second">Future Projects Loading...</Tab.Pane>
+                <Tab.Pane className='third-tab' eventKey="third">Future Projects Loading...</Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>

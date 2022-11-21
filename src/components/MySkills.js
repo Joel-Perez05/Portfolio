@@ -35,7 +35,11 @@ const MySkills = (props) => {
           <Col>
             <div className='skill-bx'>
               <h2>Skills</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+              <p>
+                My time at the coding bootcamp was well spent learning a plethora of skills
+                <br></br> but here's the main core of what I learned. I encourage you to check out
+                <br></br> my resume for a much more detailed breakdown.
+              </p>
               <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                 <div className='item'>
                   <img src={Python} alt='python logo' />
