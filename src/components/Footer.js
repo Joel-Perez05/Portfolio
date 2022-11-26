@@ -15,9 +15,9 @@ const Footer = () => {
           </Col>
           <Col sm={6} className='text-center text-sm-end'>
           <div className='social-icon'>
-                <a href='https://www.linkedin.com/in/joel-perez1995/'><img src={linkedinlogo} alt="linkedin logo" /></a>
-                <a href='https://www.facebook.com/joel.x.perez'><img src={fblogo} alt="facebook logo" /></a>
-                <a href='https://github.com/Joel-Perez05'><img src={githublogo} alt="github logo" /></a>
+                <a href='https://www.linkedin.com/in/joel-perez1995/' target=' _blank'><img src={linkedinlogo} alt="linkedin logo" /></a>
+                <a href='https://www.facebook.com/joel.x.perez' target=' _blank'><img src={fblogo} alt="facebook logo" /></a>
+                <a href='https://github.com/Joel-Perez05' target=' _blank'><img src={githublogo} alt="github logo" /></a>
               </div>
               <p>CopyRight 2022. All Rights Reserved</p>
           </Col>

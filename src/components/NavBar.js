@@ -46,9 +46,9 @@ const NavBar = (props) => {
             </Nav>
             <span className="navbar-text">
               <div className='social-icon'>
-                <a href='https://www.linkedin.com/in/joel-perez1995/'><img src={linkedinlogo} alt="linkedin logo" /></a>
-                <a href='https://www.facebook.com/joel.x.perez'><img src={fblogo} alt="facebook logo" /></a>
-                <a href='https://github.com/Joel-Perez05'><img src={githublogo} alt="github logo" /></a>
+                <a href='https://www.linkedin.com/in/joel-perez1995/' target=' _blank'><img src={linkedinlogo} alt="linkedin logo" /></a>
+                <a href='https://www.facebook.com/joel.x.perez' target=' _blank'><img src={fblogo} alt="facebook logo" /></a>
+                <a href='https://github.com/Joel-Perez05' target=' _blank'><img src={githublogo} alt="github logo" /></a>
               </div>
               <button className='vvd' onClick={() => console.log("connect")}><span>Let's Connect</span></button>
             </span>
