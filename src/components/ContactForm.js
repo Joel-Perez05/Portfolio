@@ -18,10 +18,11 @@ const ContactForm = (props) => {
       .then((result) => {
           console.log(result.text);
           console.log("message sent")
-          e.target.reset()
+          alert("Your message has been sent.")
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
   };
 
   return (
