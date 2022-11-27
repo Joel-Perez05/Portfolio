@@ -494,6 +494,10 @@ border-right: 0.08em solid #666;
   font-style: italic;
 }
 
+.project-text a:hover {
+  color: #121212;
+}
+
 .project-text span {
   color: #B8B8B8;
   font-style: italic;
