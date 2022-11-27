@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import AboutMe from './components/AboutMe';
 import MySkills from './components/MySkills';
 import MyProjects from './components/MyProjects';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,6 +15,7 @@ function App() {
       <AboutMe />
       <MySkills />
       <MyProjects />
+      <ContactForm />
       <Footer />
     </div>
   );

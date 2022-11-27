@@ -50,7 +50,7 @@ const NavBar = (props) => {
                 <a href='https://www.facebook.com/joel.x.perez' target=' _blank'><img src={fblogo} alt="facebook logo" /></a>
                 <a href='https://github.com/Joel-Perez05' target=' _blank'><img src={githublogo} alt="github logo" /></a>
               </div>
-              <button className='vvd' onClick={() => console.log("connect")}><span>Let's Connect</span></button>
+              {/* <button className='vvd' onClick={() => console.log("connect")}><span>Let's Connect</span></button> */}
             </span>
           </Navbar.Collapse>
         </Container>

@@ -480,12 +480,18 @@ border-right: 0.08em solid #666;
 }
 
 .project-text h4 {
-  text-decoration: none;
   color: #B8B8B8;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+}
+
+.project-text a {
+  text-decoration: none;
+  color: #B8B8B8;
+  font-size: 1.3em;
+  font-style: italic;
 }
 
 .project-text span {

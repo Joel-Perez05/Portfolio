@@ -9,6 +9,12 @@ const MyProjects = (props) => {
   const personalProjects = [
     {
       title: "The Master List",
+      description: "Full Stack CRUD app for legend of zelda lets users create their own top 5 list of favoite zelda games.",
+      imgUrl: Zelda,
+      Link: "https://the-master-list.onrender.com"
+    },
+    {
+      title: "hello",
       description: "lorem",
       imgUrl: Zelda
     },
@@ -17,26 +23,21 @@ const MyProjects = (props) => {
       description: "lorem",
       imgUrl: Zelda
     },
-    {
-      title: "The Master List",
-      description: "lorem",
-      imgUrl: Zelda
-    },
-    {
-      title: "The Master List",
-      description: "lorem",
-      imgUrl: Zelda
-    },
-    {
-      title: "The Master List",
-      description: "lorem",
-      imgUrl: Zelda
-    },
-    {
-      title: "The Master List",
-      description: "lorem",
-      imgUrl: Zelda
-    },
+    // {
+    //   title: "The Master List",
+    //   description: "lorem",
+    //   imgUrl: Zelda
+    // },
+    // {
+    //   title: "The Master List",
+    //   description: "lorem",
+    //   imgUrl: Zelda
+    // },
+    // {
+    //   title: "The Master List",
+    //   description: "lorem",
+    //   imgUrl: Zelda
+    // },
   ];
 
   return (
