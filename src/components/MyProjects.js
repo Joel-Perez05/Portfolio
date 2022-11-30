@@ -13,16 +13,16 @@ const MyProjects = (props) => {
       imgUrl: Zelda,
       Link: "https://the-master-list.onrender.com"
     },
-    {
-      title: "hello",
-      description: "lorem",
-      imgUrl: Zelda
-    },
-    {
-      title: "The Master List",
-      description: "lorem",
-      imgUrl: Zelda
-    },
+    // {
+    //   title: "hello",
+    //   description: "lorem",
+    //   imgUrl: Zelda
+    // },
+    // {
+    //   title: "The Master List",
+    //   description: "lorem",
+    //   imgUrl: Zelda
+    // },
     // {
     //   title: "The Master List",
     //   description: "lorem",
