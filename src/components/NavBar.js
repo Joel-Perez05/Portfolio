@@ -35,9 +35,6 @@ const NavBar = (props) => {
       <div>
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
           <Container>
-            {/* <Navbar.Brand href="#home">
-              <img src={logo} alt="Logo" />
-            </Navbar.Brand> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav">
               <span className="navbar-toggler-icon"></span>
             </Navbar.Toggle>
@@ -54,7 +51,7 @@ const NavBar = (props) => {
                   <a href='https://github.com/Joel-Perez05' target=' _blank'><img src={githublogo} alt="github logo" /></a>
                 </div>
                 <HashLink to="#connect">
-                  <button className='vvd' onClick={() => console.log("connect")}><span>Let's Connect</span></button>
+                  <button className='vvd'>Let's Connect</button>
                 </HashLink>
               </span>
             </Navbar.Collapse>

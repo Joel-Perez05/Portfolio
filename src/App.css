@@ -45,7 +45,7 @@ nav.navbar {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 9999;
+  z-index: 1;
   transition: 0.32 ease-in-out;
 }
 
@@ -135,10 +135,6 @@ span.navbar-text {
   position: relative;
   background-color: transparent;
   transition: 0.3s ease-in-out;
-}
-
-.navbar-text button span {
-  z-index: 1;
 }
 
 .navbar-text button::before {
@@ -406,6 +402,10 @@ border-right: 0.08em solid #666;
 
 .project .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.project-img, img {
+  height: 200px;
 }
 
 .nav-link#projects-tabs-tab-first {

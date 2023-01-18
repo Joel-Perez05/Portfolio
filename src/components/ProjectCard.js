@@ -10,7 +10,7 @@ const ProjectCard = ({title, description, imgUrl, Link}) => {
             <h4>{title}</h4>
             <span>{description}</span>
             <div>
-              <a href={Link} target=" _blank">Web App</a>
+              <a href={Link} target=" _blank">Demo</a>
             </div>
           </div>
         </div>

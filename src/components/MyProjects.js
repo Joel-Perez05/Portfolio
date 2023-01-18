@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Nav, Tab } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
 import Zelda from "../img/zelda.jpg";
+import cart from "../img/shoppingCart1.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -13,11 +14,12 @@ const MyProjects = (props) => {
       imgUrl: Zelda,
       Link: "https://the-master-list.onrender.com"
     },
-    // {
-    //   title: "hello",
-    //   description: "lorem",
-    //   imgUrl: Zelda
-    // },
+    {
+      title: "My Shopping Cart",
+      description: "Front End React.js project utilizing context api and use reducer for global state management and some neat functionality for filters",
+      imgUrl: cart,
+      Link: "https://jperez-shopping-cart.onrender.com"
+    },
     // {
     //   title: "The Master List",
     //   description: "lorem",
