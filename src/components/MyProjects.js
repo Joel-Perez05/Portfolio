@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Nav, Tab } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
 import Zelda from "../img/zelda.jpg";
-import cart from "../img/shoppingCart1.png"
+import cart from "../img/cart.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -12,13 +12,15 @@ const MyProjects = (props) => {
       title: "The Master List",
       description: "Full Stack CRUD app for legend of zelda lets users create their own top 5 list of favoite zelda games.",
       imgUrl: Zelda,
-      Link: "https://the-master-list.onrender.com"
+      demo: "https://the-master-list.onrender.com",
+      repo: "https://github.com/Joel-Perez05/The-Master-List"
     },
     {
       title: "My Shopping Cart",
       description: "Front End React.js project utilizing context api and use reducer for global state management and some neat functionality for filters",
       imgUrl: cart,
-      Link: "https://jperez-shopping-cart.onrender.com"
+      demo: "https://jperez-shopping-cart.onrender.com",
+      repo: "https://github.com/Joel-Perez05/advanced_shopping_cart"
     },
     // {
     //   title: "The Master List",

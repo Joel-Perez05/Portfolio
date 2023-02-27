@@ -83,7 +83,7 @@ span.navbar-text {
 }
 
 .social-icon {
-  display: inline-block;
+  display: inline-flex;
   margin-left: 14px;
 }
 
@@ -116,6 +116,7 @@ span.navbar-text {
 }
 
 .social-icon a img {
+  height: 100%;
   width: 60%;
   z-index: 1;
   transition: 0.5s ease-in-out;
@@ -275,6 +276,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner img {
+  height: 400px;
+  width: 400px;
   animation: updown 3s linear infinite;
 }
 

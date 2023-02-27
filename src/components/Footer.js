@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Logo from "../img/logo.svg";
 import linkedinlogo from "../img/linkedinlogo.svg";
 import fblogo from "../img/fblogo.svg";
 import githublogo from "../img/githublogo.svg";
